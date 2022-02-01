@@ -30,26 +30,38 @@ header img:hover{
 /* main*/
 
 .bloco{
-    margin-top: 10%;
-    margin-bottom: 25px;
-    width: 30%;
-    height: 300px;
+    margin: 10%;
+    padding: 1px;
     display: flex;
-    border: solid 1px gray;
-    box-shadow: gray 0px 3px 5px 1px;
+    flex-direction: column;
+    
 }
 
-input{
-    background-color: white;
+section{
+    background-color: rgba(110, 108, 255, 0.623);
     border: white solid 3px;
     border-bottom-left-radius: 40%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 10%;
+    box-shadow: #000000b4 0px 3px 5px 1px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
 
-input:hover{
-    border: 3px solid gray;
+section:hover{
+    background-color: rgba(30, 31, 65, 0.863);
+    border: 3px solid black;
+    box-shadow: none;
 }
+
+
 /* footer*/
 
 footer{
@@ -76,23 +88,7 @@ footer{
     header img:hover{
         box-shadow: white -2px -3px 50px 1px;  
     }
-    .bloco{
-        margin-top: 10%;
-        margin-bottom: 25px;
-        width: 30%;
-        height: 300px;
-        display: flex;
-        border: solid 1px gray;
-        box-shadow: gray 0px 3px 5px 1px;
-    }
-    .bloco{
-        margin-bottom: 25px;
-        width: 60%;
-        height: 450px;
-        display: flex;
-        border: solid 1px gray;
-        box-shadow: gray 0px 3px 5px 1px;
-    }
+    
 
     footer{        
         border: none;
@@ -101,3 +97,4 @@ footer{
     }
     
 }
+/*
